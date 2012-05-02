@@ -6,7 +6,7 @@ Introduction
 
 Boilerplate code for rocking fresh Node projects with `Express 3.0`, `Jade`, and `asset management` for compiling, concatenating and minifying `less` and `javascript` files.
 
-Two development environments: `development` and `production`. Assets are concatenated, minified and hashed in `production` and template files are updated in accordance.
+Two development environments: `development` and `production`. Assets are concatenated, minified, hashed and cached in `production` and the `Jade` template files are updated in accordance.
 
 Requirements
 ------------
