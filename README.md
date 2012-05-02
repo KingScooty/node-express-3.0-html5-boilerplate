@@ -25,7 +25,7 @@ Install
 Install dependencies:
 
 ```
-npm install -d
+$ npm install -d
 ```
 
 
