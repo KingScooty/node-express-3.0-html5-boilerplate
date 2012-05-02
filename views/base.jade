@@ -1,0 +1,43 @@
+!!! 5
+//if lt IE 7
+    html.no-js.ie6.oldie(lang='en')
+//if IE 7
+    html.no-js.ie7.oldie(lang='en')
+//if IE 8
+    html.no-js.ie8.oldie(lang='en') 
+//[if gt IE 8]><!
+html.no-js(lang='en')
+    //<![end if]
+
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+        title=title
+        meta(name="description", content="Rawr")
+        meta(name="author", content="Scotty Vernon")
+        meta(name="viewport", content='width=device-width, initial-scale=1')
+        //-link(rel='stylesheet', href='/css/style.css')
+        != css('style')
+        script(src='/js/vendor/modernizr-2.5.3.min.js')
+        script(src='/js/libs/angular-1.0.0rc6.min.js')
+
+    body        
+        header
+            h1 Whassup!
+        
+        block content
+        
+        footer
+            p &copy; 2012 Me!
+            
+        script(src='//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js')
+        script
+            window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\\/script>')
+        //-script(defer, src='js/plugins.js')
+        //-script(defer, src='/js/main.js')
+        != js('main')
+            script
+                var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview'],['_trackPageLoadTime']];
+                (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+                g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g,s)}(document,'script'));
