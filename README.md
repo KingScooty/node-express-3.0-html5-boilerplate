@@ -6,7 +6,7 @@ Introduction
 
 Boilerplate code for rocking fresh Node projects with `Express 3.0`, `Jade`, and `asset management` for compiling, concatenating and minifying `less` and `javascript` files.
 
-Two development environments: `development` and `production`. Assets are concatenated, minified and hashed in production and template files are updated in accordance.
+Two development environments: `development` and `production`. Assets are concatenated, minified and hashed in `production` and template files are updated in accordance.
 
 Requirements
 ------------
@@ -24,7 +24,9 @@ Install
 
 Install dependencies:
 
-`npm install -d`
+```
+npm install -d
+```
 
 
 Run the app in `development` mode:
@@ -43,4 +45,4 @@ License
 -------
 Node Express 3.0 HTML5 Boilerplate is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
 
-Copyright 2012, Scotty Vernon // Wildflame Studios.
+Copyright 2012, [Scotty Vernon](http://kingscooty.com/) // [Wildflame Studios](http://wildflame.co.uk/)
