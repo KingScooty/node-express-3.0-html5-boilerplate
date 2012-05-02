@@ -1,4 +1,4 @@
-Node-Express-3.0-HTML5-Boilerplate
+Node Express 3.0 HTML5 Boilerplate
 ==================================
 
 Introduction
@@ -15,6 +15,14 @@ This project uses a number of bits and bobs:
 * [Express](http://expressjs.com/guide.html) Lightweight framework for Node
 * [Jade](http://jade-lang.com/) Node templating language (bit like Haml)
 * [Less](http://lesscss.org/) Node dynamic css language.
+* [Connect Assets](https://github.com/TrevorBurnham/connect-assets) A Rails 3.1-style asset pipeline for Node.js
+
+Install
+-------
+
+Install dependencies:
+
+`npm install -d`
 
 License
 -------
