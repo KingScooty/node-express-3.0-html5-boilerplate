@@ -1,15 +1,15 @@
 {
     "name": "node-express-3.0-html5-boilerplate", 
-    "version": "0.1.0", 
+    "version": "0.2.0", 
     "private": true, 
     "dependencies": {
-        "express": "3.0.0alpha2", 
+        "express": "3.x", 
         "jade": "0.x",
         "less": "1.x",
         "connect-assets": "2.x",
         "colors": "0.x"
     },
     "engines": {
-        "node": "~0.6.0"
+        "node": "~0.8.x"
     }
 }
